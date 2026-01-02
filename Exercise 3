@@ -1,0 +1,47 @@
+
+ 11
+let marks = 85;
+let grade;
+if (marks >= 90) grade = "A";
+else if (marks >= 80) grade = "B";
+else if (marks >= 70) grade = "C";
+else if (marks >= 60) grade = "D";
+else grade = "F";
+console.log(grade);
+
+    12
+let length = 5;
+let width = 10;
+console.log(length * width);
+console.log(2 * (length + width));
+
+     13
+let year = 2024;
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+  console.log("Leap year");
+} else {
+  console.log("Not a leap year");
+}
+
+    14
+let numberCheck = 47;
+if (numberCheck % 3 === 0 && numberCheck % 5 === 0) {
+  console.log("Divisible by 3 and 5");
+} else if (numberCheck % 3 === 0) {
+  console.log("Divisible by 3");
+} else if (numberCheck % 5 === 0) {
+  console.log("Divisible by 5");
+} else {
+  console.log("Not divisible by 3 or 5");
+}
+
+     15
+let subject1 = 78;
+let subject2 = 85;
+let subject3 = 92;
+let average = (subject1 + subject2 + subject3) / 3;
+
+if (average >= 90) console.log("Excellent");
+else if (average >= 75) console.log("Good");
+else if (average >= 60) console.log("Average");
+else console.log("Needs improvement");
